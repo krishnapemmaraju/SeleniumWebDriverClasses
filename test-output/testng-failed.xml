@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNGSessionSuite]">
+  <test thread-count="5" name="TestNGPractical(failed)">
+    <classes>
+      <class name="com.sel.test.tetng.googleTitleTestAssertion">
+        <methods>
+          <include name="terminate"/>
+          <include name="setUp"/>
+          <include name="googleTitleTest"/>
+        </methods>
+      </class> <!-- com.sel.test.tetng.googleTitleTestAssertion -->
+      <class name="com.sel.test.tetng.TestNGFeatures">
+        <methods>
+          <include name="HomePage"/>
+          <include name="SearchPage"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.sel.test.tetng.TestNGFeatures -->
+    </classes>
+  </test> <!-- TestNGPractical(failed) -->
+</suite> <!-- Failed suite [TestNGSessionSuite] -->

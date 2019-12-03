@@ -1,0 +1,68 @@
+What is GIT and GIT hub ?
+
+GIT HUB - it is a website whihc provides different services 
+Create wiki pages
+Provides task managment activities
+Bug tracking 
+Hosting services for GIT Repo 
+
+Branches - 
+Master 
+Feature 
+
+check in - push 
+check out - pull 
+
+GIT HUB - kind of hosting server
+
+GIT - is a tool [ check in , check out , creating branches , version control ] 
+
+GIT - developed by founder of Linux - Linus Torvalds 
+
+
+==================
+Steps to push/pull the code 
+
+Create a Repository
+Create a Project in Eclipse 
+
+Initialize the git from yoru command prompt : 
+
+initialize GIT 
+
+command - git init 
+
+copy the url from git hub 
+
+git remote add origin url from GIT hub 
+
+git status
+git add .
+
+commit the code 
+
+git commit -m 'mesage'
+
+git push origin master 
+
+===============================
+
+Persmissions need to given to push code to master - register ssh key  [ public key ] 
+
+===============
+
+Pulling 
+
+git clone 
+
+git clone https://github.com/naveenanimation20/SeleniumJavaCourse
+
+====================
+Selenium Grid 
+
+Hub server - start 
+
+
+Node Server Start 
+java -Dwebdriver.chrome.driver="/Users/NaveenKhunteta/Downloads/chromedriver" -jar selenium-server-standalone-3.8.1.jar -role node -hub http://169.254.188.202:4444/grid/register
+
